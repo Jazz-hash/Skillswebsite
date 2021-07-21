@@ -1,0 +1,47 @@
+.card {
+  border-radius: 8px;
+  background-color: rgb(66, 66, 66);
+  color: white  !important;
+  font-family: "Raleway";
+  margin: 10px;
+}
+.cardTopBg {
+  height: 180px;
+  position: relative;
+}
+.card-image {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  background-position: center;
+  background-size: cover;
+  height: 180px;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 65%, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 65%, 0 100%);
+}
+
+.card_content {
+  color: white;
+  padding: 20px;
+  height: 170px;
+  display: block;
+  position: relative;
+}
+.card_content h1 {
+  font-weight: 100;
+  font-size: 18px;
+  width: 100%;
+}
+.card_content h2 {
+  font-weight: 100;
+  font-size: 14px;
+  color: #cbd5e0;
+  width: 100%;
+}
+.card_content p {
+  position: absolute;
+  bottom: 0;
+  font-weight: 400;
+  font-size: 12px;
+  color: white;
+  text-align: center;
+}

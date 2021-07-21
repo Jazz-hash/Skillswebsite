@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css2?family=Acme&family=Raleway:wght@100&display=swap");
+
+body {
+  font-family: "Raleway" !important;
+}
+.root {
+  max-width: 140vw;
+  background-color: none;
+  border: 2px darkgrey;
+  box-shadow: 10px 10px 5px #aaaaaa;
+  margin: 10px;
+  font-family: "Raleway" !important;
+}
+.heading {
+  text-align: center;
+  padding: 2.5rem;
+  font-family: "Raleway" !important;
+}
+
+.btn {
+  border-radius: 50%;
+  background: none;
+  border: none;
+  color: rgb(3, 3, 3);
+  padding: 12px 16px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: gray;
+  color: black;
+  opacity: 0.5;
+}
+.header {
+  text-align: center;
+  padding: 50px;
+  font-family: "Raleway" !important;
+}
+.image {
+  width: 200px;
+  height: 250px;
+  object-fit: cover;
+  font-family: "Raleway" !important;
+}
+.infoBox {
+  height: 170px;
+  object-fit: cover;
+}
+.butn {
+  padding: 10px 20px;
+  border: 1px solid #eee;
+  border-radius: 4px;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  position: relative;
+  margin: 2px 2px 0 2px;
+  -webkit-animation-delay: 1.2s;
+  animation-delay: 1.2s;
+}
+
+.butn:after {
+  content: "";
+  width: 0;
+  height: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 100%;
+  z-index: 1;
+  color: #aaaaaa;
+  background: #fff;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.butn:hover {
+  border-color: #000;
+}
+
+.butn:hover:after {
+  width: 100%;
+  left: 0;
+  -webkit-transition: width 0.3s ease;
+  transition: width 0.3s ease;
+}
+.butn:hover span {
+  color: #1c1c1c;
+}
+
+.butn span {
+  position: relative;
+  z-index: 2;
+}
+.butnBg {
+  background: #004e92;
+  border-color: #004e92;
+  color: #fff;
+}
+@media screen and (max-width: 480px) {
+  .image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+  }
+  .infoBox {
+    height: 180px;
+    object-fit: cover;
+    text-align: center;
+    size: 2rem;
+  }
+  .root {
+    margin: 5px;
+    padding: 10px;
+  }
+  .heading {
+    padding: 0.2rem;
+    text-align: center;
+  }
+}
+
+/* Styling of Slides 2 Teacher Slides  */
+
+.root2 {
+  display: "flex";
+  max-width: 140vw;
+  background-color: none;
+  border: 4px darkgrey;
+  box-shadow: 10px 10px 5px #aaaaaa;
+  margin: 10px;
+  font-family: "Raleway" !important;
+}
+.details {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  border: none;
+  height: 200px;
+}
+.content {
+  flex: "1 0 auto";
+  border: none;
+}
+.cover {
+  width: 151;
+}
+.image2 {
+  width: 400px;
+  height: 400px;
+  padding: 0;
+}
+.main-cont {
+  background-color: white;
+}
+.sub-cont {
+  height: 750px;
+}
+@media screen and (max-width: 1024px) {
+  .image2 {
+    height: 450px;
+    width: 450px !important;
+  }
+}
+@media screen and (max-width: 768px) {
+  .image2 {
+    height: 300px;
+    padding: 10px 0px 0px 0px;
+    width: 300px !important;
+    margin: auto;
+  }
+  .details {
+    height: 230px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .details {
+    height: 200px;
+  }
+}

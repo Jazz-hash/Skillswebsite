@@ -1,0 +1,66 @@
+.image-ins {
+  width: 100% !important;
+  height: 100% !important;
+}
+.backgroundIns {
+  background-image: url("../assets//img//instructorBg.png");
+  background-size: contain;
+  background-position-x: left;
+  background-repeat: no-repeat;
+}
+@media (min-width: 321px) {
+  .image-ins {
+    width: 250px !important;
+    height: 250px !important;
+  }
+}
+
+/* /* .parentCard {
+  width: 100%;
+
+  background: linear-gradient(to top left, #fff 50%, #111 50%);
+  background-size: 100% 47%;
+  background-repeat: no-repeat;
+  margin-top: 15px;
+}
+.ifr {
+  margin: 15px auto;
+}
+.image-ins {
+  width: 300px !important;
+  height: 300px !important;
+}
+@media screen and (max-width: 320px) {
+  .image-ins {
+    width: 200px !important;
+    height: 200px !important;
+  }
+  .parentCard {
+    background: linear-gradient(to top left, #fff 90%, #111 20%);
+    background-size: 500% 120%;
+  }
+}
+
+<<<<<<< HEAD
+.learnMore {
+  display: flex;
+  align-items: center;
+  color: #706aaf;
+  font-weight: 700;
+  margin-top: 10px;
+  visibility: hidden;
+  justify-content: center;
+}
+
+.learnMoreImg {
+  margin-left: 17px;
+  width: 40px;
+  background: #f4f5f6;
+  padding: 10px;
+  border-radius: 34px;
+}
+
+.instructor-card:hover .learnMore {
+  visibility: visible;
+  color: white;
+}  */

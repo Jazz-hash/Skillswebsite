@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;600&display=swap");
+
+$primaryColor: #004e92;
+
+.card {
+  box-sizing: border-box;
+  height: 25rem;
+  border-radius: 1rem;
+  background-color: rgb(242, 242, 242);
+
+  &:hover {
+    transform: scale(1.05, 1.05);
+  }
+
+  // @media (max-width: 1280px) {
+  //   height: 20rem;
+  // }
+
+  .actionArea {
+    width: 100%;
+    height: 100%;
+
+    .media {
+      box-sizing: border-box;
+      height: 40%;
+    }
+    .content {
+      height: 60%;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+
+      .courseNumber {
+        margin-bottom: 0.5rem;
+        display: flex;
+        flex-direction: row;
+        text-align: right;
+
+        .value {
+          font-weight: bold;
+          padding: 0.2rem 0.4rem;
+          font-family: "Raleway";
+        }
+      }
+      .courseTitle {
+        @media (max-width: 1280px) {
+          font-size: 1rem;
+        }
+        font-family: "Raleway";
+        text-align: left;
+      }
+      .difficultyIndicator {
+        align-self: flex-start;
+        margin-top: auto;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+      }
+    }
+  }
+}
